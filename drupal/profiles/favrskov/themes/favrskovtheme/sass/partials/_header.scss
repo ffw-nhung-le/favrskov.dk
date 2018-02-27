@@ -185,7 +185,7 @@
     }
   }
 
-  .search {
+  .search, #apachesolr-panels-search-block {
     position: relative;
     height: 34px;
 
@@ -228,6 +228,7 @@
   }
 
   .secondary-nav {
+    text-align: right;
     .menu {
       text-align: right;
       padding-right: 30px;
@@ -258,6 +259,16 @@
         display: block;
         font-weight: 600;
       }
+    }
+    #apachesolr-panels-search-block {
+      display: inline-block;
+      max-width: 250px;
+    }
+    .pane-menu-menu-header-menu {
+      display: inline-block;
+    }
+    .panel-separator {
+      display: none;
     }
   }
 
